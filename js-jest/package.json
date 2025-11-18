@@ -25,5 +25,8 @@
   "homepage": "https://github.com/emilybache/GildedRose-Refactoring-Kata",
   "devDependencies": {
     "jest": "^29.7.0"
+  },
+  "overrides": {
+    "braces": ">=3.0.3"
   }
 }
