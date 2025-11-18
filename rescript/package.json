@@ -1,12 +1,12 @@
 {
   "devDependencies": {
-    "@babel/core": "^7.22.15",
-    "@babel/preset-env": "^7.22.15",
+    "@babel/core": "^7.27.1",
+    "@babel/preset-env": "^7.27.1",
     "@glennsl/rescript-jest": "^0.10.0",
     "babel-jest": "^29.6.4",
-    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
-    "esbuild": "^0.19.2",
-    "esbuild-jest": "^0.5.0",
+    "@babel/plugin-transform-modules-commonjs": "^7.27.1",
+    "esbuild": "^0.27.0",
+    "esbuild-jest": "^0.4.0",
     "jest": "^29.6.4",
     "rescript": "^10.1.4"
   },
@@ -18,5 +18,8 @@
   },
   "name": "rescript",
   "version": "1.0.0",
-  "license": "MIT"
+  "license": "MIT",
+  "overrides": {
+    "@babel/traverse": "7.23.2"
+  }
 }
