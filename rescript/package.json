@@ -18,5 +18,8 @@
   },
   "name": "rescript",
   "version": "1.0.0",
-  "license": "MIT"
+  "license": "MIT",
+  "resolutions": {
+    "@babel/traverse": "^7.23.2"
+  }
 }
